@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./assets.images/Screenshot.png)
+![Screenshot](./assets/images/Screenshot.png)
 
 ### Links
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [https://scrimba.com/learn/cssvariables](https://scrimba.com/learn/cssvariables) - This helped me for setting CSS varaiables. I really liked this pattern and will use it going forward.
+- [https://scrimba.com/learn/cssvariables](https://scrimba.com/learn/cssvariables) - This helped me with the setting of CSS varaiables. I really like this pattern and will use it going forward.
 
 ## Author
 
