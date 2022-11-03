@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --softOrange: hsl(35, 77%, 62%);
+    --softRed: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-grayish-blue);
+}
+
+/* ============================
+           Typography
+=============================*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+a:hover, a:focus,
+.news h3:hover,
+.news h3:focus {
+    color: var(--softOrange);
+}
+
+.box-info h3:hover,
+.box-info h3:focus {
+    color: var(--softRed);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--very-dark-blue);
+}
+
+.news h2 {
+    font-size: 2rem;
+    color: var(--softOrange);
+}
+
+.news h3 {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.box-info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.box-info h3 {
+    font-size: 1rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* ============================
+           Layout
+=============================*/
+
+main, header, 
+.navlinks,
+.hero-info ,
+.footer-container,
+.box {
+    display: flex;
+}
+
+nav {
+    width: 40%;
+}
+
+header,
+main, footer {
+    width: 80%;
+    margin: 1em auto;
+}
+
+header, .box,
+main, .hero-info,
+.footer-container,
+.navlinks {
+    justify-content: space-between;
+}
+
+.footer-container,
+.navlinks {
+    align-items: center;
+}
+
+header {
+    margin: 2em auto;
+}
+
+.hero-info {
+    margin-top: 1em;
+}
+
+.hero {
+    width: 68%;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.title,
+.hero-p {
+    width: 48%;
+}
+
+button {
+    background-color: var(--softRed);
+    padding: .9em 1.5em;
+    text-transform: uppercase;
+    color: var(--off-white);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--very-dark-blue);
+}
+
+.news {
+    width: 30%;
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
+    padding: .5em 1em;
+}
+
+.new-box {
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--off-white);
+}
+
+.new-box:last-child {
+    border-bottom: none;
+}
+
+.box {
+    width: 30%;
+}
+
+.box-info {
+    width: 65%;
+}
+
+.box img {
+    width: 30%;
+}
+
+footer {
+    margin: 3em auto 1em;
+}
+
+.footer-container {
+    margin-bottom: 1em;
+}
+
+
+/* ============================
+       Media Queries
+=============================*/
